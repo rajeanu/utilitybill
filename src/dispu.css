@@ -1,0 +1,36 @@
+div {
+	border:1px ;
+	position : relative;
+	width:100%;
+	top :40px;
+	left:450px;
+   }
+body	{background-image:url("phone.jpg");
+}
+a{
+	text-decoration:none;
+}
+td{color:black;
+font-weight:bold;}
+.button{
+	background-color:#00ffff; 
+	border : none;
+	color : white;
+	padding : 15px 32px;
+	text-align : center;
+	text-decoration : none;
+	width : 10%;
+}
+.button {
+	transition-duration :0.4s;
+}
+.button:hover
+{
+	background-color : red;
+	border : none;
+	
+	padding : 15px 32px;
+	text-align : center;
+	text-decoration : none;
+	width : 20%;
+}
